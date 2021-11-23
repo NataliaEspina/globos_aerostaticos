@@ -4,58 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Globos Aerostáticos</title>
+    <link rel="stylesheet" href="../estilos/style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <img src="./resources/logo.png" alt="">
-            <ul>
-                <li>
-                    <a href="../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="../pages/historia.html">Historia</a>
-                </li>
-                <li>
-                    <a href="../pages/galeria.html">Galería</a>
-                </li>
-                <li>
-                    <a href="../pages/blog.html">Blog</a>
-                </li>
-                <li>
-                    <a href="../pages/contacto.html">Contacto</a>
-                </li>
+        <nav class="menu">
+            <img class="menu__logo" src="../resources/logo.png" alt="">
+            <ul class="menu__lista">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/historia.html">Historia</a></li>
+                <li><a href="../pages/galeria.html">Galería</a></li>
+                <li><a href="../pages/blog.html">Blog</a></li>
+                <li> <a href="../pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Historia</h1>
-        <h2>El antiguo sueño humano de viajar por el aire se hizo realidad en 1783, gracias a los globos de aire caliente y de hidrógeno inventados por los hermanos Montgolfier y por Charles y Robert</h2>
-        <div>
+    <main class="historia">
+        <h1 class="historia__titulo">Historia</h1>
+        <h2 class="historia__subtitulo">El antiguo sueño humano de viajar por el aire se hizo realidad en 1783, gracias a los globos de aire caliente y de hidrógeno inventados por los hermanos Montgolfier y por Charles y Robert</h2>
+        <div class="historia__info">
             <h3>Los creadores</h3>
             <p>Los hermanos Joseph y Jacques Montgolfier realizaron la primera demostración pública de su invento el 4 de junio de 1782 en Francia. Su sueño de llegar hasta el cielo se hizo realidad. Después de varios experimentos, comprendieron que el aire caliente es más liviano que el frío, por lo que tiende a subir. Decidieron crear una máquina que permitiera volar con este principio. Joseph y Jacques Montgolfier lanzaron su primer modelo en septiembre de 1782.</p>
         </div>
-        <div>
+        <div class="historia__info">
             <h3>El primer vuelo</h3>
-            <p>Después de muchos intentos, los hermanos Montgolfier crearon un globo hecho de seda y papel que contaba con 10 metros de diámetro. Éste fue presentado el día 4 de junio de 1783 y lanzado en el mercado de Annonay para que toda la gente pudiera ver lo que habían creado. Afortunadamente el globo ascendió entre 1,600 y 2,000 metros y la gente quedó asombrada.</p>
-            <img src="../resources/foto_02.jpg" alt="">
+            <div class="historia__info--foto">
+                <p>Después de muchos intentos, los hermanos Montgolfier crearon un globo hecho de seda y papel que contaba con 10 metros de diámetro. Éste fue presentado el día 4 de junio de 1783 y lanzado en el mercado de Annonay para que toda la gente pudiera ver lo que habían creado. Afortunadamente el globo ascendió entre 1,600 y 2,000 metros y la gente quedó asombrada.</p>
+                <img src="../resources/foto_02.jpg" alt="">        
+            </div>
         </div>
     </main>
-    <footer>
-        <p>Viví una experiencia única</p>
-        <a href="https://www.instagram.com/">
-            <img src="../resources/instagram.png" alt="">
-        </a>
-        <a href="https://es-la.facebook.com/">
-            <img src="../resources/facebook.png" alt="">
-        </a>
-        <a href="https://www.youtube.com/">
-            <img src="../resources/youtube.png" alt="">
-        </a>
-        <a href="https://www.whatsapp.com/?lang=es">
-            <img src="../resources/whatsapp.png" alt="">
-        </a>
+    <footer class="pie">
+        <p class="pie__texto">Viví una experiencia única</p>
+        <div class="pie__redes">
+            <a href="https://www.instagram.com/">
+                <img class="pie__imagenes" src="../resources/instagram.png" alt="">
+            </a>
+            <a href="https://es-la.facebook.com/">
+                <img class="pie__imagenes" src="../resources/facebook.png" alt="">
+            </a>
+            <a href="https://www.youtube.com/">
+                <img class="pie__imagenes" src="../resources/youtube.png" alt="">
+            </a>
+            <a href="https://www.whatsapp.com/?lang=es">
+                <img class="pie__imagenes" src="../resources/whatsapp.png" alt="">
+            </a>
+        </div>
     </footer>
 </body>
 </html>
